@@ -1,0 +1,49 @@
+body {
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    background: #cfebfc;
+}
+
+.hiNum div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hiNum div > input {
+    width: 48%;
+}
+
+.hiNum div > input:nth-child(odd) {
+    margin: 0 10px 10px 0;
+}
+
+.hiNum div > input:nth-child(even) {
+    margin: 0 0 10px 0;
+}
+
+#showVal {
+    background: green;
+    padding: 10px;
+    color: #fafafa;
+    letter-spacing: .1px;
+}
+
+#wrongVal {
+    background: #8d1515;
+    padding: 10px;
+    color: #fafafa;
+    letter-spacing: .1px;
+}
+
+.userOut,
+.hide {
+    display: none;
+}
+
+.on {
+    display: block;
+}

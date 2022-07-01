@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/largestNum.css">
+    <title>Aleatorizar três números</title>
+</head>
+<body>
+    <h1>Escreva uma declaração condicional em JavaScript para encontrar o maior de cinco números. Exiba uma caixa de alerta para mostrar o resultado.</h1>
+
+    <div class="hiNum">
+        <div>
+            <input type="text" id="inputVal1" name="inputVal1" placeholder="Insira um número">
+            <input type="text" id="inputVal2" name="inputVal2" placeholder="Insira um número">
+            <input type="text" id="inputVal3" name="inputVal3" placeholder="Insira um número">
+            <input type="text" id="inputVal4" name="inputVal4" placeholder="Insira um número">
+            <input type="text" id="inputVal5" name="inputVal5" placeholder="Insira um número">
+        </div>
+        
+        <button id="submitVal">Exiba o maior dos cinco números!</button>
+    </div>
+
+    <p id="showVals"></p>
+    <p id="showBigVal"></p>
+
+    <script src="js/largestNum.js"></script>
+</body>
+</html>
+
+<!-- 
+    Steps:
+    1. Armazenar o valor de 5 numeros.
+    2. Fazer Verificação em cada número (se número específico for maior que os 4 numeros restantes)
+        2.1. Exiba o numero e uma mensagem informando que este numero específico é maior.
+
+    Steps:
+    1. Armazenar o valor de 5 numeros.
+    2. Se numero1 for maior que os 4 numeros armazenados(numero2, numero3, numero4, numero5) restantes
+        2.1. Exiba o numero e uma mensagem informando que o numero1 é maior.
+    3. Mais Se numero2 for maior que os 4 numeros armazenados restantes (numero1, numero3, numero4,numero5)
+        3.1. Exiba o numero e uma mensagem informando numero2 é maior.
+    4. Mais Se numero3 for maior que os 4 numeros armazenados restantes (numero1, numero2, numero4, numero5)
+        4.1. Exiba o numero e uma mensagem informando que o numero3 é maior.
+    5. Mais Se numero4 for maior que os 4 numeros armazenados restantes (numero1, numero2, numero3, numero5)
+        5.1. Exiba o numero e uma mensagem informando que o numero4 é maior.
+    6. Mais Se numero5 for maior que os 4 numeros armazenados restantes (numero1, numero2, numero3, numero4)
+        4.1. Exiba o numero e uma mensagem informando que o numero5 é maior.
+    7. Se não
+        7.1. Exiba uma mensagem informando que o valor é inválido.
+-->
+
+<!-- Fonte: https://www.w3resource.com/javascript-exercises/javascript-conditional-statements-and-loops-exercises.php -->

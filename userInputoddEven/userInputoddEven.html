@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/userInputoddEven.css">
+    <title>Entrada do user Par ou ímpar?</title>
+</head>
+<body>
+    <h1>Forneça uma maneira de o usuário inserir um número. O valor mínimo deve ser 0 e o valor máximo 15. Exiba uma mensagem na tela informando o número e se ele é par ou ímpar.</h1>
+
+    <div class="userEntry">
+        <input type="text" id="inputNum" name="inputNum">
+        <button id="btnOddEven">Par ou ímpar?</button>
+    </div>
+
+    <div class="userOut">
+        <p id="showVal"></p>
+        <p id="wrongVal"></p>
+    </div>
+
+    <script src="js/userInputoddEven.js"></script>
+</body>
+</html>
+
+<!-- 
+    Steps:
+    1. Percorrer cada número usando a estrutura de repetição for (valor min: 0, valor max: 15)
+    2. Se o número for par
+        2.1. Exiba uma mensagem informando o número e que é par
+    3. Se o número for ímpar
+        3.1. Exiba uma mensagem informando o número e que é ímpar 
+
+    Aprimorar:
+    1. Fornecer uma maneira de o usuário dar os valores
+    2. Armazenar os valores digitados pelo usuário 
+    3. Só aceitar números de 0 a 15
+    5. Se o número da caixa de entrada for par
+        2.1. Exiba uma mensagem informando o número e que é par
+    6. Se o número da caixa de entrada for ímpar
+        3.1. Exiba uma mensagem informando o número e que é ímpar 
+    7. Mais se o número dado pelo usuário for maior que 15 ou menor que 0
+        4.1. Valor inválido! Digite um número entre 0 e 15.
+    8. Se o valor for vazio
+        8.1. Exiba Valor inválido! Por favor insira um valor numérico.
+-->
+
+<!-- Fonte: https://www.w3resource.com/javascript-exercises/javascript-conditional-statements-and-loops-exercises.php -->

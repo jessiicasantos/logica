@@ -1,0 +1,19 @@
+body {
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.outText {
+    display: flex;
+    white-space: pre;
+}
+
+#wrongVal {
+    display: none;
+    background: red;
+    padding: 10px;
+    color: #fafafa;
+}

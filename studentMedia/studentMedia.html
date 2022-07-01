@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/studentMedia.css">
+    <title>Notas Médias dos Alunos</title>
+</head>
+<body>
+    <h1>Escreva um programa JS que calcule as notas médias dos seguintes alunos. Em seguida, essa média é usada para determinar a nota correpondente.</h1>
+    <ul>
+        <li>David	80</li>
+        <li>Vinoth	77</li>
+        <li>Divya	88</li>
+        <li>Ishitha	95</li>
+        <li>Thomas	68</li>
+    </ul>
+    <h3>As notas são calculadas da seguinte forma: </h3>
+    <ul>
+        <li>Menor que 60 F</li>
+        <li>Menor que 70 D</li>
+        <li>Menor que 80 C</li>
+        <li>Menor que 90 B</li>
+        <li>Menor que 100 UMA</li>
+    </ul>
+
+    <div class="">
+        <p id="showVal"></p>
+    </div>
+
+    <script src="js/studentMedia.js"></script>
+</body>
+</html>
+
+<!-- 
+    Nome aluno | Marcas
+    David      | 80
+    Vinoth     | 77
+    Divya      | 88
+    Ishitha    | 95
+    Thomas     | 68
+
+    As notas são calculadas da seguinte forma:
+    Faixa      | Grau
+    <60          F
+    <70          D
+    <80          C
+    <90          B
+    <100         UMA
+
+    Steps:
+        1. Armazenar os alunos e suas marcas
+        2. Calcular a média dos alunos (80 + 77 + 88 + 95 + 68) / 5 = média / 5 = result. final
+        3. Se marca for < 60
+            3.1. Exiba Grau F, a marca que o aluno alcançou e como o grau é calculado (Faixa <60, Grau F)
+        4. Se marca for < 70
+            4.1. Grau D
+        5. Se marca for < 80
+            5.1. Grau C
+        6. Se marca for < 90
+            6.1. Grau B
+        7. Se marca for < 100
+            7.1. Grau A
+-->
+
+<!-- Fonte: https://www.w3resource.com/javascript-exercises/javascript-conditional-statements-and-loops-exercises.php -->
